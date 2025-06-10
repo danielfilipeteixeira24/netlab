@@ -7,8 +7,8 @@ virtualbox:
   image: cisco/csr1000v
 clab:
   group_vars:
-    ansible_ssh_pass: admin
-    ansible_user: admin
+    ansible_ssh_pass: VR-netlab9
+    ansible_user: vrnetlab
     netlab_check_retries: 50
   image: vrnetlab/vr-csr:17.03.04
   node:
